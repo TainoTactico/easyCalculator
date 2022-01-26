@@ -6,7 +6,7 @@ exports.rectangleArea = async (req,res) => {
         if (req.method == "GET"){
             var area = req.query.base * req.query.height;
         }
-        else if (condition) {
+        else if (req.method == "POST") {
             var area = req.body.base * req.body.height
         }
         
