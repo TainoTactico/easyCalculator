@@ -3,6 +3,7 @@ EasyCalculator is a web application written on Nodejs that serves as an easy geo
 Most calculator endpoints accept POST and GET methods.
 
 To consume the API from do:
+
     curl -H 'content-type: application/json' -d '{"base":"2","height":"2"}' http://localhost:3000/calculator/rectangleArea
 
     - or - 
